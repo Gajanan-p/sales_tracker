@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_customer_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/list_report_km_wise_user_name"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="left|center"
+                android:padding="8dp"
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                tools:text="Ray" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/list_report_km_wise_usertype"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:gravity="left|center"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                tools:text="3" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/list_report_km_wise_kmdate"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="left|center"
+                android:padding="8dp"
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                tools:text="06/02/2023" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/list_report_km_wise_total_km"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:gravity="right|center"
+                android:padding="8dp"
+                android:layout_margin="1dp"
+                android:background="#ffffff"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                tools:text="100" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

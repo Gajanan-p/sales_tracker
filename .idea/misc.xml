@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/drawable-v24/spinner_bg.xml" value="0.1125" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/drawable/row_button_background.xml" value="0.1125" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_add_customer_information.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_customer_master.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_kmreport.xml" value="0.15885416666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_loign.xml" value="0.13802083333333334" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_main.xml" value="0.12222222222222222" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_manager_dashboard.xml" value="0.13802083333333334" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_map.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_maps.xml" value="0.19010416666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_registration.xml" value="0.21" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_report_user_wise.xml" value="0.14427083333333332" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_user_dashboard.xml" value="0.171875" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_user_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/activity_user_type.xml" value="0.13333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/add_customer_information_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/content_user_type.xml" value="0.13333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/fragment_first.xml" value="0.13333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/fragment_second.xml" value="0.13333333333333333" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/report_user_wise_list_layout.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/row_customer_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/row_user_list.xml" value="0.203125" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/layout/row_user_type_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/menu/menu.xml" value="0.10104166666666667" />
+        <entry key="..\:/AndroidStudioProjects/SaleTracker/app/src/main/res/menu/navigation_menu.xml" value="0.13802083333333334" />
+        <entry key="..\:/SaleTracker/app/src/main/res/drawable-v24/row_background.xml" value="0.1345" />
+        <entry key="..\:/SaleTracker/app/src/main/res/drawable/edit_text_background.xml" value="0.1295" />
+        <entry key="..\:/SaleTracker/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1175" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_add_customer_information.xml" value="0.20102564102564102" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_customer_master.xml" value="0.25" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_kmreport.xml" value="0.22" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_manager_dashboard.xml" value="0.2" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_map.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_report_user_wise.xml" value="0.2" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_user_dashboard.xml" value="0.2" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_user_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/activity_user_type.xml" value="0.20102564102564102" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/add_customer_information_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/add_customer_information_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/registration_user_type_dialog.xml" value="0.33" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/registration_user_type_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/report_user_wise_list_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/report_user_wise_list_layput.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/row_customer_list.xml" value="0.15" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/row_km_report_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/row_user_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/row_user_type_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/select_user_dialog_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/layout/select_user_layput.xml" value="0.20416666666666666" />
+        <entry key="..\:/SaleTracker/app/src/main/res/menu/main_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

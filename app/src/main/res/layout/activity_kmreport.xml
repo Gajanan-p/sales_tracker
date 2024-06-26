@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".reports.KMReportActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/report_user_wise_select_user"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.6"
+            android:clickable="false"
+            android:singleLine="true"
+            android:focusable="false"
+            android:hint="Select user "
+            tools:ignore="TouchTargetSizeCheck"
+            android:focusableInTouchMode="false"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/spinner_bg"
+            android:padding="@dimen/edit_text_padding_10_or_8_dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_km_report_excel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingStart="@dimen/button_paddingStartAndEnd"
+            android:paddingEnd="@dimen/button_paddingStartAndEnd"
+            android:text="Excel"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_km_report_pdf"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.2"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingStart="@dimen/button_paddingStartAndEnd"
+            android:paddingEnd="@dimen/button_paddingStartAndEnd"
+            android:text="pdf"
+            android:singleLine="true"
+            android:textColor="@color/black" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linear_search_by_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:text="From Date"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/edit_from_date"
+                        style="@style/EditTextViewComponent"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:hint="Select from date"
+                        android:drawableEnd="@drawable/spinner_bg"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.50"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:text="To Date"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/edit_to_date"
+                        style="@style/EditTextViewComponent"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:gravity="center_horizontal"
+                        android:hint="Select to date"
+                        android:drawableEnd="@drawable/spinner_bg"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_search"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:text="Search"
+                android:textColor="@color/black" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="match_parent">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:id="@+id/layout_customer_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="User Name"
+                        android:background="@color/teal_700"
+                        android:textColor="@android:color/white" />
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="User Type"
+                        android:background="@color/teal_700"
+                        android:textColor="@android:color/white" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="KM Date"
+                        android:background="@color/teal_700"
+                        android:textColor="@android:color/white" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:padding="4dp"
+                        android:textSize="16sp"
+                        android:layout_margin="1dp"
+                        android:text="Total KM"
+                        android:background="@color/teal_700"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/report_km_wise_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view"
+                    tools:listitem="@layout/row_km_report_layout" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/nav_buttons"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            >
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/report_km_wise_buttonFirst"
+                android:layout_width="wrap_content"
+                android:text="First"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/report_km_wise_buttonPre"
+                android:layout_width="wrap_content"
+                android:text="Pre"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/report_km_wise_textPageNo"
+                android:layout_width="wrap_content"
+                android:text="1"
+                android:paddingLeft="4px"
+                android:paddingRight="4px"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="700"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/report_km_wise_buttonNext"
+                android:layout_width="wrap_content"
+                android:text="Next"
+                android:layout_height="wrap_content"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/report_km_wise_buttonLast"
+                android:layout_width="wrap_content"
+                android:text="Last"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

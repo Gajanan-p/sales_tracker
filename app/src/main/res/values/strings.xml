@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SaleTracker</string>
+    <string name="title_activity_user_type">UserTypeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <!--Login Data User Dashboard-->
+    <string name="menu_add_user">Add User</string>
+    <string name="menu_add_user_type">Add Use</string>
+    <string name="menu_customer_info">Customer Info</string>
+    <string name="menu_track_report">Track Report</string>
+    <string name="menu_start_tracking">Start Tracking</string>
+    <string name="menu_stop_tracking">Stop Tracking</string>
+    <string name="menu_add_customer">Add Customer</string>
+
+    <style name="EditTextViewComponent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000</item>
+        <!--item name="android:textStyle">bold</item-->
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

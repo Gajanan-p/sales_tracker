@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".map.MapActivity">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_map_add_user_type"
+        style="@style/InputStyle"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:drawableRight="@drawable/spinner_bg"
+        android:focusable="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:focusableInTouchMode="false"
+        android:hint="Select User "
+        tools:ignore="TouchTargetSizeCheck"
+
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edit_map_add_date"
+        style="@style/InputStyle"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:drawableRight="@drawable/spinner_bg"
+        android:focusable="false"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:focusableInTouchMode="false"
+        android:hint="Select date "
+        tools:ignore="TouchTargetSizeCheck"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_map_ok"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:id="@+id/map_view"
+></LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
